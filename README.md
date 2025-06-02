@@ -4,7 +4,7 @@ Welcome to the official open-source evaluation framework for measuring steerabil
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-[Website](https://steerability.org/) | [Demo (research preview)](https://steerability.onrender.com/) | [Dataset](https://huggingface.co/datasets/tchang97/steerbench) 
+[Website](https://steerability.org/) | [Demo (research preview)](https://steerability.onrender.com/) | [Paper](https://arxiv.org/abs/2505.23816) | [Dataset](https://huggingface.co/datasets/tchang97/steerbench) 
 
 ![Steerflow Demo](src/steerflow/preview.gif)
 
@@ -129,8 +129,13 @@ While there are scripts supporting most of the above features, they have not bee
 
 If you find our work or this repo useful, please cite our work:
 ```
-@misc{chang2025steerability,
-    [FORTHCOMING]
+@misc{chang2025course,
+    title={A Course Correction in Steerability Evaluation: Revealing Miscalibration and Side Effects in LLMs},
+    author={Trenton Chang and Tobias Schnabel and Adith Swaminathan and Jenna Wiens},
+    year={2025},
+    eprint={2505.23816},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
 }
 ```
 
